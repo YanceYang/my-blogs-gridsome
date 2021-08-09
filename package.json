@@ -7,8 +7,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "gridsome": "^0.7.0",
     "@gridsome/source-strapi": "^0.2.0",
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "gridsome": "^0.7.0"
   }
 }
