@@ -24,14 +24,6 @@
               width="2560"
               data-sizes="(max-width: 2560px) 100vw, 2560px"
               class="thumbnail g-image g-image--lazy g-image--loaded"
-              :srcset="
-                `
-                ${GRIDSOME_API_URL + article.image.url}  480w,
-                ${GRIDSOME_API_URL + article.image.url} 1024w,
-                ${GRIDSOME_API_URL + article.image.url} 1920w,
-                ${GRIDSOME_API_URL + article.image.url} 2560w
-              `
-              "
               sizes="(max-width: 2560px) 100vw, 2560px"
             />
             <h3 class="project-title">{{ article.title }}</h3>
